@@ -1,0 +1,16 @@
+{
+  "name": "lesson-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 10.0.0 < 12.3.3",
+    "npm": ">= 6.0.0 < 8.0.0"
+  }
+}
