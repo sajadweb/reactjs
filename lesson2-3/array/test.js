@@ -18,4 +18,4 @@ Number.prototype.toFotmat=function(){
     ///rfvdgfvd
     return "200,000";
 }
-console.log(new Date().toTime(5))
+console.log(new Date().toTime(5));
