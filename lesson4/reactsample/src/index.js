@@ -12,8 +12,7 @@ root.render(
     <Suspense
       fallback={
         <div style={{ background: "red" }}>
-          Loadingsdvcdsfvszcvsdcskcsjdcnsncsjbcsjcssedfn
-          csfdjnfcsfjdfcnsjncsdjfcbsdjnfcsj...
+          Loading...
         </div>
       }
     >
