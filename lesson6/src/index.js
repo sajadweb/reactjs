@@ -1,23 +1,22 @@
 import React from "react";
 import { Suspense, lazy } from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
- 
 import reportWebVitals from "./reportWebVitals";
-const OtherComponent = lazy(() => import("./OtherComponent"));
-const App = lazy(() => import("./App"));
+import UseMemo from "./UseMemo";
+import UseCallback from "./UseCallback";
+import CustomHooks from "./CustomHooks";
+import UseEffect from "./UseEffect";
+const UseRef = lazy(() => import("./UseRef"));
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Suspense
-      fallback={
-        <div style={{ background: "red" }}>
-          Loading...
-        </div>
-      }
-    >
-      <App />
-      <OtherComponent />
+    <Suspense fallback={<div style={{ background: "red" }}>Loading...</div>}>
+      <UseEffect />
+      {/* <CustomHooks /> */}
+      {/* <UseCallback /> */}
+      {/* <UseMemo /> */}
+      {/* <UseRef /> */}
     </Suspense>
   </React.StrictMode>
 );
