@@ -8,7 +8,9 @@ import CustomHooks from "./CustomHooks";
 import UseEffect from "./UseEffect";
 import UseForm from "./useForm";
 import UseContext from "./useContext";
+import Styled from "./Styled";
 import UseReducer from "./useReducer";
+import Theam from "./Theam";
 
 const UseRef = lazy(() => import("./UseRef"));
 
@@ -16,7 +18,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Suspense fallback={<div style={{ background: "red" }}>Loading...</div>}>
-      <UseReducer />
+      <Theam />
+      {/* <Styled /> */}
+      {/* <UseReducer /> */}
       {/* <UseContext /> */}
       {/* <UseForm /> */}
       {/* <UseEffect /> */}
